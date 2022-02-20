@@ -39,7 +39,4 @@ jobs:
         continue-on-error: true
         id: slither
         with:
-          ignore-compile: true
           target: 'contracts/'
-          solc-version: "0.8.11"
-          node-version: 16
